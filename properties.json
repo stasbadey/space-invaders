@@ -1,0 +1,89 @@
+{
+  "enemies": [{
+    "alienVelocity": 7,
+    "alienImage1": "imgs/allien-type-1-1.png",
+    "alienImage2": "imgs/allien-type-1-2.png",
+    "alienImage3": "imgs/allien-type-1-3.png",
+    "alienImage4": "imgs/allien-type-1-4.png",
+    "alienWidth": 40,
+    "alienHeight": 35,
+    "alienLaserVelocity": 3,
+    "alienLaserWidth": 5,
+    "alienLaserHeight": 10,
+    "alienLaserImage": "imgs/allien-type-1-laser-1.png",
+
+    "majorAlienVelocity": 5,
+    "majorAlienImage": "imgs/allien-type-1-2.png",
+    "majorAlienWidth": 65,
+    "majorAlienHeight": 55,
+    "majorAlienLaserVelocity": 7,
+    "majorAlienLaserWidth": 5,
+    "majorAlienLaserHeight": 10,
+    "majorAlienLaserImage": "imgs/allien-type-2-laser-1.png",
+
+    "ufoVelocity": 11,
+    "ufoWidth": 45,
+    "ufoHeight": 45,
+    "ufoImage": "imgs/ufo-alien-1.png",
+    "ufoLaserVelocity": 5,
+    "ufoLaserWidth": 7,
+    "ufoLaserHeight": 18,
+    "ufoLaserImage": "imgs/ufo-laser.png",
+
+    "predatorVelocity": 1,
+    "predatorWidth": 95,
+    "predatorHeight": 100,
+    "predatorImage": "imgs/allien-predator.png",
+    "predatorLaserVelocity": 5,
+    "predatorLaserWidth": 25,
+    "predatorLaserHeight": 25,
+    "predatorLaserImage": "imgs/predator-alien-laser.png",
+
+    "smallMeteorWidth": 20,
+    "smallMeteorHeight": 20,
+    "smallMeteorImage": "imgs/meteors/meteorBrown_small1.png"
+  }],
+  "mapProps": [{
+    "blueBackground": "imgs/backgrounds/blue.png",
+    "blackBackground": "imgs/backgrounds/black.png",
+    "darkPurpleBackground": "imgs/backgrounds/darkPurple.png",
+    "purpleBackground": "imgs/backgrounds/purple.png",
+    "spaceBackground": "imgs/backgrounds/spaceBackground.jpg",
+
+    "powerUpBoostWidth": 30,
+    "powerUpBoostHeight": 30,
+    "powerUpBoostImage": "imgs/power_up_boost.png",
+
+    "laserBoostWidth": 30,
+    "laserBoostHeight": 30,
+    "laserBoostImage": "imgs/bullet_boost.png",
+
+    "spaceshipHitSoundPath": "audio/sfx_laser1.ogg",
+    "spaceshipGotHitSoundPath": "audio/sfx_laser2.ogg",
+    "spaceshipGotBoosterSoundPath": "audio/sfx_shieldUp.ogg",
+    "spaceshipBeatUpThePredatorSoundPath": "audio/beat-up-predator.ogg",
+    "spaceshipHpImage": "imgs/hp.jpg",
+
+    "gameFPS": 100,
+    "gameCaption": "Space Invagers Plus",
+    "gameWidth": 500,
+    "gameHeight": 1000
+  }],
+  "mainCharacter": [{
+    "spaceshipVelocity": 5,
+    "spaceshipWidth": 65,
+    "spaceshipHeight": 80,
+    "spaceshipImage": "imgs/space-ship.png",
+    "spaceshipLaserVelocity": 8,
+    "spaceshipLaserWidth": 20,
+    "spaceshipLaserHeight": 20,
+    "spaceshipLaserImage": "imgs/space-ship-bullet.png"
+  }],
+  "animations": [{
+    "damage1": "imgs/damage/damage00.png",
+    "damage2": "imgs/damage/damage01.png",
+    "damage3": "imgs/damage/damage02.png",
+    "damageWidth": 40,
+    "damageHeight": 35
+  }]
+}
